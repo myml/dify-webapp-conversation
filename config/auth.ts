@@ -1,7 +1,7 @@
 import type { GitLabAuthConfig } from '@/types/auth'
 
 const config: GitLabAuthConfig = {
-  enabled: false,
+  enabled: true,
   clientId: process.env.GITLAB_CLIENT_ID || '',
   clientSecret: process.env.GITLAB_CLIENT_SECRET || '',
   baseUrl: process.env.GITLAB_BASE_URL || 'https://gitlab.com',
