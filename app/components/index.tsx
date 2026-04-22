@@ -239,7 +239,9 @@ const Main: FC<IMainProps> = () => {
           throw new Error(error)
           return
         }
-        const _conversationId = getConversationIdFromStorage(APP_ID)
+        // disable session restore
+        // const _conversationId = getConversationIdFromStorage(APP_ID)
+        const _conversationId = ''
         const currentConversation = conversations.find(item => item.id === _conversationId)
         const isNotNewConversation = !!currentConversation
 

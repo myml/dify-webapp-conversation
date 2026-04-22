@@ -8,7 +8,7 @@ const translation = {
   loginRequired: {
     title: '需要登录',
     message: '请使用右上角的登录按钮进行认证',
-    hint: '登录后即可继续使用应用',
+    hint: '登录后可在多设备同步历史会话',
   },
   loginButton: {
     loginWithGitLab: '使用GitLab登录',
